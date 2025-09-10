@@ -1,0 +1,32 @@
+# ---- Compilados C/C++ ----
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.TMP
+
+# ---- Qt Creator ----
+*.pro.user
+*.qbs.user
+*.qmlproject.user
+*.txt.user
+*.qmake.stash
+*.autosave
+*.pro.user.*
+.qtc/
+
+# ---- Directorios de build ----
+build*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# ---- IDEs comunes ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
